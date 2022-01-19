@@ -1,0 +1,18 @@
+android_app_import {
+    name: "MiuiCamera",
+
+    privileged: true,
+
+    dex_preopt: {
+        enabled: false,
+    },
+    overrides: [
+        "SnapdragonCamera",
+        "Snap",
+        "Camera2",
+        "GoogleCameraGo",
+    ],
+    apk: "MiuiCamera/MiuiCamera.apk",
+    presigned: true,
+
+}
